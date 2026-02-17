@@ -1,4 +1,4 @@
-ARG ALPINE="python:3.11-alpine"
+ARG ALPINE="alpine:latest"
 
 FROM ${ALPINE} AS composer
 RUN apk add php-json php-phar php-mbstring php-openssl
